@@ -1,0 +1,7 @@
+<% layout('./layout/login') -%>
+<% block('title', 'Вход'); -%>
+<form action="login-user" method="POST">
+    <input type="email" name="user" placeholder="your@mail.here" required="">
+    <input type="password" name="password" placeholder="password" required="">
+    <input type="submit" value="login">
+</form>
